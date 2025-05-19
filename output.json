@@ -1,0 +1,67 @@
+{
+    "timestamp": "2025-05-06T16:15:47.616191",
+    "plate": "not_visible",
+    "violations": [
+        {
+            "type": "no_helmet"
+        }
+    ]
+}
+{
+    "timestamp": "2025-05-06T16:15:58.750163",
+    "plate": "not_visible",
+    "violations": [
+        {
+            "type": "no_helmet"
+        }
+    ]
+}
+{
+    "timestamp": "2025-05-06T16:16:32.707151",
+    "plate": "not visible",
+    "violations": [
+        {
+            "type": "no_helmet",
+            "description": "Driver on motorcycle not wearing helmet"
+        }
+    ]
+}
+{
+    "timestamp": "2025-05-06T16:16:58.522644",
+    "plate": "not_visible",
+    "violations": [
+        {
+            "type": "no_helmet",
+            "description": "Driver on motorcycle not wearing helmet"
+        }
+    ]
+}
+{
+    "timestamp": "2025-05-06T16:17:14.583411",
+    "plate": "not_visible",
+    "violations": [
+        {
+            "type": "no_helmet"
+        }
+    ]
+}
+{
+    "timestamp": "2025-05-06T16:18:07.180556",
+    "plate": "not_visible",
+    "violations": [
+        {
+            "type": "no_helmet",
+            "description": "Driver on motorcycle not wearing helmet"
+        }
+    ]
+}
+{
+     "timestamp": "2025-05-06T16:25:37.651422",
+     "plate": "not visible",
+     "violations": [
+         {
+             "type": "overcrowded_violation" if True == True else "helmet_violation" if True == True else "Other traffic rule violated",
+             "description": "Motorcycle overcrowded" if True==True else "Driver on motorcycle not wearing helmet" if True==True else "Other traffic rule violated",
+         }
+     ]
+}
